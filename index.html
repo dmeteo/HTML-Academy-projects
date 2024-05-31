@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <head>
     <meta charset="utf-8">
     <title>Под парусом</title>
   </head>
   <body>
     <header class="main-header">
-      <img src="sail-club/img/CLB.webp" alt="Логотип яхт-клуба Yacht Club">
+      <img src="img/logotype.svg" alt="Логотип яхт-клуба Yacht Club">
       <nav class="main-nav">
         <ul class="header-items">
           <li class="header-item">
@@ -28,40 +32,76 @@
             <a href="#">Контакты</a>
           </li>
         </ul>
-        <a href="#"><img src="sail-club/img/CLB.webp" alt="Картинка пользователя"></a>
+        <a href="#"><img src="img/account.svg" alt="Картинка пользователя"></a>
       </nav>
     </header>
     <main>
         <section class="hero">
           <h2>Вместе под парусом</h2>
-          <img src="sail-club/img/placeholder.svg" alt="Фото">
+          <img src="img/main photo 1.jpg" alt="Фото">
         </section>
 
         <section class="article">
-          <p>20 октября - 19 апреля</p>
-          <h2>Стань частью команды</h2>
-          <p>Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время! Мы набираем команду будущих шкиперов. 
+          <p class="datetime">20 октября - 19 апреля</p>
+          <h2 class="subtitle-text">Стань частью команды</h2>
+          <p class="text">Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время! Мы набираем команду будущих шкиперов. 
               За 6 месяцев вы станете настоящим капитаном и уже в следующем сезоне сможете самостоятельно выйти в море!</p>
-          <img src="sail-club/img/placeholder.svg">
+          <img src="img/photo 2.jpg">
         </section>
 
         <section class="article">
-          <p>16 июля - 23 июля</p>
-          <h2>Рожденные в воде</h2>
-          <p>Подарите детям настоящее приключение! День с морскими пиратами на корабле –
+          <p class="datetime" style="margin-top: 17px;">16 июля - 23 июля</p>
+          <h2 class="subtitle-text">Рожденные в воде</h2>
+          <p class="text">Подарите детям настоящее приключение! День с морскими пиратами на корабле –
               это лучшая команда, веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!</p>
-          <img src="sail-club/img/placeholder.svg">
+          <img src="img/photo 3.jpg">
+        </section>
+
+        <section class="news">
+          <h2 class="subtitle-text">Новости</h2>
+          <img src="img/photo 4 news.jpg">
+          <h3 class="news-h">Итоги регаты Sochi Race Week 2020</h3>
+          <p class="news-text">
+            Свыше сотни участников собирались на побережье Сочи, чтобы посоревноваться за главный приз. В соревнованиях приняли участие как новички, так и профессионалы моряки, имеющие за плечами немалый опыт. 
+          </p>
+          <p class="news-text">
+            На протяжении всего плавания нас сопровождало солнце прекрасная погода, в отдельные дни ветер до 20 узлов. Регата была прекрасно организована, 135 яхтсменов, 7 экипажей, 9 стран участниц, 4 гоночных дня, 3 дивизиона.
+          </p>
+
+          <h3 class="commands-h">Команды-участники:</h3>
+          <ul class="commands-items">
+            <li class="commands-item">Восток 35</li>
+            <li class="commands-item">Fortune Sailing</li>
+            <li class="commands-item">Сибирь</li>
+            <li class="commands-item">Левиафан</li>
+            <li class="commands-item">Черный лебедь</li>
+            <li class="commands-item">White Pepper</li>
+            <li class="commands-item">Pearl</li>
+          </ul>
+
+          <p class="news-text">
+            Чемпионом регаты Sochi Race Week 2020 стала команда Fortune Sailing, в прошлом году остановившаяся в одном шаге от победы, а в этом сезоне опередившая ближайшего соперника — экипаж «Восток 35» — на 12 баллов 5 баллов.
+          </p>
+
+          <blockquote class='quote'>
+            <p class="blockquote-text">Мы в команде очень дружны и понимаем друг друга без слов, думаю, поэтому мы и победили</p>
+          </blockquote>
+          <p class="news-text">Поздравляем победителей и ждем все участников снова на осенних регатах!</p>
+          <img src="img/author.jpg">
+          <cite class="author">Артем Колесников</cite>
+          <data class="author">20.06.2021</data>
+          <img src="img/share icon.svg">
         </section>
 
         <section class="contacts">
-          <h2>Контакты</h2>
+          <h2 class="subtitle-text">Контакты</h2>
           <ul class="info">
             <li class="info-item">
               <h3>Адрес:</h3>
-              <i>г. Сочи, ул. Бзугу, 9</i>
+              <p>г. Сочи, ул. Бзугу, 9</p>
             </li>
             <li class="info-item">
-              <h3>Телефон:</h3>
+              <h3>Телефон:</h3
               <a href="#">8 (622) 62-05-63</a>
             </li>
             <li class="info-item">
@@ -73,15 +113,15 @@
             <ul class="messangers">
               <li class="facebook">
                 <a href="#">
-                  <img src="sail-club/img/placeholder.svg"></a>
+                  <img src="img/facebook.svg"></a>
               </li>
               <li class="twitter">
                 <a href="#">
-                  <img src="sail-club/img/placeholder.svg"></a>
+                  <img src="img/twitter.svg"></a>
               </li>
               <li class="instagram">
                 <a href="#">
-                  <img src="sail-club/img/placeholder.svg"></a>
+                  <img src="img/instagram.svg"></a>
               </li>
             </ul>
           </ul>
@@ -89,12 +129,12 @@
     </main>
 
     <footer>
-      <img src="sail-club/img/placeholder.svg">
+      <img src="img/logotype.svg">
       <p><a href="#">Политика конфиденциальности</a></p>
       <p>Яхтклуб ©2020 Все права защищены</p>
       <ul class="footers-items">
         <li class="footers-item">
-          <h2>Компания</h2>
+          <h2 class="footer">Компания</h2>
             <ul class="company">
               <li class="company-item">
                 <a href="#">О нас</a></li>
@@ -109,7 +149,7 @@
               </ul>
           </li>
           <li class="footers-item">
-            <h2>Яхт-клуб</h2>
+            <h2 class="footer">Яхт-клуб</h2>
               <ul class="yachtclub">
                 <li class="yachtclub-item">
                   <a href="#">Правила</a></li>
@@ -124,10 +164,10 @@
               </ul>
           </li>
           <li class="footers-item">
-            <h2>Услуги</h2>
+            <h2 class="footer">Услуги</h2>
               <ul class="services">
                 <li class="services-item">
-                  <a href="#">>Аренда яхты</a></li>
+                  <a href="#">Аренда яхты</a></li>
                   <li class="services-item">
                     <a href="#">Свадьба на яхте</a></li>
                   <li class="services-item">
@@ -139,7 +179,7 @@
               </ul>
           </li>
           <li class="footers-item">
-            <h2>Регаты</h2>
+            <h2 class="footer">Регаты</h2>
               <ul class="regattas">
                 <li class="regattas-item">
                   <a href="#">Корпоративные регаты</a></li>

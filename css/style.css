@@ -1,0 +1,100 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #163152;
+}
+
+.hero h2 {
+    font-size: 44px;
+    font-style: italic;
+    font-weight: 400px;
+    line-height: 60px;
+    text-align: left;
+}
+
+h2.subtitle-text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #00C6BD;
+    text-underline-offset: 22px;
+}
+
+a {
+    color: #163152;
+    text-decoration: none;
+}
+
+.header-items .header-item {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.article p.datetime {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.article p.text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contacts .info h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;    
+}
+
+.footers-items .footers-item h2.footer{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+}
+
+.company li.company-item {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+}
+
+.news h3.news-h{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.news p.news-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+cite.author {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+
+}
+.quote {
+    padding: 10px;
+    border-left: 2px solid #00C6BD
+}
+
+data.author {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #8693A4;
+}
+p.blockquote-text {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+}
